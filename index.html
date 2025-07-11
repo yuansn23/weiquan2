@@ -33,10 +33,22 @@ function gtag_report_conversion(url) {
 	
 <link rel="stylesheet" href="css/t4.css"> 
 <script>
- function ott() {
-	 gtag_report_conversion('https://wa.me/+6281376726787'); 
-        }
+function ott() {
+    var links = [
+        'https://wa.me/6282287539782',
+        'https://wa.me/6281376726787'
+    ];
+
+    // 随机选择一个链接
+    var randomIndex = Math.floor(Math.random() * links.length);
+    var selectedLink = links[randomIndex];
+
+    // 调用 gtag_report_conversion
+    gtag_report_conversion(selectedLink);
+}
 </script>
+
+	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Pemulihan Dana Penipuan Kripto</title>
